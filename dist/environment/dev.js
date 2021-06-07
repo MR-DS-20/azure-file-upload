@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ENV = void 0;
 exports.ENV = {
-    stage: process.env.ENVIRONMENT,
+    stage: process.env.NODE_ENV,
     port: 8082,
     domain: '',
     apiPath: '',
