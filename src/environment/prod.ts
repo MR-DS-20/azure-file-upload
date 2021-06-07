@@ -2,7 +2,7 @@ import { IEnv } from "../interfaces/IEnv"
 
 export const ENV:IEnv ={
     stage: process.env.NODE_ENV,
-    port:8082,
+    port:80,
     domain:process.env.DOMAIN ?? '',
     apiPath: '',
     staticPath: '',
