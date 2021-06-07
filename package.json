@@ -6,7 +6,7 @@
   "scripts": {
     "start":"node ./dist/server.js",
     "start-dev": "NODE_ENV=dev node ./dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo no tests written yet",
     "commit": "tsc && git add . && git commit -m $MSG"
   },
   "author": "MXDS",
