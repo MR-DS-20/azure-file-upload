@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ENV = void 0;
 exports.ENV = {
     stage: process.env.NODE_ENV,
-    port: 80,
+    port: 8082,
     domain: (_a = process.env.DOMAIN) !== null && _a !== void 0 ? _a : '',
     apiPath: '',
     staticPath: '',
